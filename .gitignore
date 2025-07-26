@@ -1,0 +1,19 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dvlib
+
+# Environment variables
+.env
+.env.local
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, see `go test -coverprofile`
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
