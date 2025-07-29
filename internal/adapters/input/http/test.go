@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"api/src/configuration/rest_err"
+	"api/internal/infrastructure/config/rest_err"
 )
 
 func test(message string) (err *rest_err.RestErr) {

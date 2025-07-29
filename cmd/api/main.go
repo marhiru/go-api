@@ -1,7 +1,7 @@
 package main
 
 import (
-	"api/src/controller/routes"
+	"api/internal/adapters/input/http/routes"
 	"log"
 
 	"github.com/gin-gonic/gin"
