@@ -2,7 +2,7 @@ package controller
 
 import (
 	"api/src/configuration/validation"
-	"api/src/model/request"
+	"api/src/controller/model/request"
 	"fmt"
 
 	"github.com/gin-gonic/gin"
@@ -16,5 +16,6 @@ func CreateUser(c *gin.Context) {
 		c.JSON(restErr.Code, restErr)
 		return
 	}
+
 	fmt.Println(userRequest)
 }
